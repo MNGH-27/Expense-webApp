@@ -1,0 +1,22 @@
+.chart-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chart-bar__inner{
+    height: 100px;
+    width: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    background-color: cadetblue;
+    transform: rotate(180deg);
+}
+
+.chart-bar__fill{
+    background-color: #05434B;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}

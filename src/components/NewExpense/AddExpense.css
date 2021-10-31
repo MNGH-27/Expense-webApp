@@ -1,0 +1,13 @@
+.cover-addExpense{
+    max-width: 50rem;
+    background-color: rgb(5, 67, 75);
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 3px rgb(56, 149, 161);
+}
+
+@media only screen and ( max-width : 51rem ){
+    .cover-addExpense{
+        margin: 20px 40px;
+    }
+}
